@@ -23,14 +23,14 @@ class ExampleData {
   ];
 
   static Category category1 = Category(
-    title: "人氣火鍋",
-    subtitle: "附副餐一份，鍋類肉品「煙嶿肉、醃牛肉」，擇一",
+    title: "Category-1",
+    subtitle: "Category-1 description",
     isHotSale: true,
     foods: List.generate(
       5,
       (index) {
         return Food(
-          name: "701. 超人氣泡菜鍋",
+          name: "Category-1 Food",
           price: "200",
           comparePrice: "\$198",
           imageUrl: images[index % images.length],
@@ -41,14 +41,14 @@ class ExampleData {
   );
 
   static Category category2 = Category(
-    title: "特級火鍋",
-    subtitle: "附副餐一份",
+    title: "Category-2",
+    subtitle: "Category-2 description",
     isHotSale: false,
     foods: List.generate(
       3,
       (index) {
         return Food(
-          name: "706. 迷你原味鍋",
+          name: "Category-2 Food",
           price: "230",
           comparePrice: "\$250",
           imageUrl: images[index % images.length],
@@ -59,14 +59,14 @@ class ExampleData {
   );
 
   static Category category3 = Category(
-    title: "經典火鍋",
+    title: "Category-3",
     subtitle: null,
     isHotSale: false,
     foods: List.generate(
       1,
       (index) {
         return Food(
-          name: "經典火鍋",
+          name: "Category-2 Food",
           price: "258",
           comparePrice: "\$289",
           imageUrl: images[index % images.length],
@@ -77,14 +77,14 @@ class ExampleData {
   );
 
   static Category category4 = Category(
-    title: "素食火鍋",
-    subtitle: "附附餐一份，可烹煮為鍋邊素，若有需要請備著告知",
+    title: "Category-4",
+    subtitle: "Category-4 description",
     isHotSale: false,
     foods: List.generate(
       5,
       (index) {
         return Food(
-          name: "728. 連庭素食鍋",
+          name: "Category-4 Food",
           price: "240",
           comparePrice: "\$300",
           imageUrl: images[index % images.length],

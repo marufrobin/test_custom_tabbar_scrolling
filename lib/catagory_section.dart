@@ -116,7 +116,7 @@ class CategorySection extends StatelessWidget {
         Row(
           children: [
             Text(
-              "特價${food.price} ",
+              "special offer ${food.price} ",
               style: _textTheme(context).caption,
             ),
             Text(
